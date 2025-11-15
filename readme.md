@@ -10,17 +10,32 @@ This is a keyboard firmware based on the [tmk\_keyboard firmware](https://github
 
 
 ## My boards
-### Cloen with --recurse-submodules
+### Git clone with --recurse-submodules
 
 ``` shell
 git clone --recurse-submodules git@github.com:janvanrensbergen/qmk_firmware.git
 ```
 
 ### Skeletyl handwired
+            
+path: `keyboards/handwired/janvanrensbergen`
 
 ```shell
 qmk compile -kb handwired/janvanrensbergen -km default
 ```
+
+```shell
+make handwired/janvanrensbergen:default
+```
+
+### Planck
+
+path: `keyboards/planck/keymaps/janvanrensbergen`
+
+```shell
+make planck/rev6:janvanrensbergen 
+```
+
 
 ## Documentation
 
