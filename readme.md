@@ -28,6 +28,17 @@ qmk compile -kb handwired/janvanrensbergen -km default
 make handwired/janvanrensbergen:default
 ```
 
+### crkbd Corne
+
+path: `keyboards/crkbd/keymaps/janvanrensbergen`
+
+```shell
+qmk compile -kb crkbd -km janvanrensbergen 
+```
+```shell
+make crkbd:janvanrensbergen 
+```
+
 ### Planck
 
 path: `keyboards/planck/keymaps/janvanrensbergen`
