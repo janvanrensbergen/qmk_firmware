@@ -1,0 +1,83 @@
+{
+    "manufacturer": "Jan Van Rensbergen",
+    "keyboard_name": "handwired/janvanrensbergen",
+    "maintainer": "Jan Van Rensbergen",
+    "development_board": "kb2040",
+    "diode_direction": "COL2ROW",
+    "features": {
+        "bootmagic": true,
+        "command": false,
+        "console": false,
+        "extrakey": true,
+        "mousekey": true,
+        "nkro": true
+    },
+    "url": "",
+    "build": {
+        "firmware_format": "uf2"
+    },
+    "usb": {
+        "device_version": "1.0.0",
+        "pid": "0x0000",
+        "vid": "0xFEED"
+    },
+    "matrix_pins": {
+        "cols": ["GP26", "GP18", "GP20", "GP19", "GP10"],
+        "rows": ["GP6", "GP7", "GP8", "GP9"]
+    },
+    "split": {
+        "enabled": true,
+        "serial": {
+            "pin": "GP29"
+        }
+    },
+    "layouts": {
+        "LAYOUT_split_3x5_3": {
+            "layout": [
+                {"matrix": [0, 0], "x": 0, "y": 0},
+                {"matrix": [0, 1], "x": 0, "y": 0},
+                {"matrix": [0, 2], "x": 0, "y": 0},
+                {"matrix": [0, 3], "x": 0, "y": 0},
+                {"matrix": [0, 4], "x": 0, "y": 0},
+
+                {"matrix": [4, 0], "x": 0, "y": 0},
+                {"matrix": [4, 1], "x": 0, "y": 0},
+                {"matrix": [4, 2], "x": 0, "y": 0},
+                {"matrix": [4, 3], "x": 0, "y": 0},
+                {"matrix": [4, 4], "x": 0, "y": 0},
+
+                {"matrix": [1, 0], "x": 0, "y": 0},
+                {"matrix": [1, 1], "x": 0, "y": 0},
+                {"matrix": [1, 2], "x": 0, "y": 0},
+                {"matrix": [1, 3], "x": 0, "y": 0},
+                {"matrix": [1, 4], "x": 0, "y": 0},
+
+                {"matrix": [5, 0], "x": 0, "y": 0},
+                {"matrix": [5, 1], "x": 0, "y": 0},
+                {"matrix": [5, 2], "x": 0, "y": 0},
+                {"matrix": [5, 3], "x": 0, "y": 0},
+                {"matrix": [5, 4], "x": 0, "y": 0},
+
+                {"matrix": [2, 0], "x": 0, "y": 0},
+                {"matrix": [2, 1], "x": 0, "y": 0},
+                {"matrix": [2, 2], "x": 0, "y": 0},
+                {"matrix": [2, 3], "x": 0, "y": 0},
+                {"matrix": [2, 4], "x": 0, "y": 0},
+
+                {"matrix": [6, 0], "x": 0, "y": 0},
+                {"matrix": [6, 1], "x": 0, "y": 0},
+                {"matrix": [6, 2], "x": 0, "y": 0},
+                {"matrix": [6, 3], "x": 0, "y": 0},
+                {"matrix": [6, 4], "x": 0, "y": 0},
+
+                {"matrix": [3, 2], "x": 0, "y": 0},
+                {"matrix": [3, 3], "x": 0, "y": 0},
+                {"matrix": [3, 4], "x": 0, "y": 0},
+
+                {"matrix": [7, 0], "x": 0, "y": 0},
+                {"matrix": [7, 1], "x": 0, "y": 0},
+                {"matrix": [7, 2], "x": 0, "y": 0}
+            ]
+        }
+    }
+}
