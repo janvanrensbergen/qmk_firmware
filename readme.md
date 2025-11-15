@@ -36,6 +36,18 @@ path: `keyboards/planck/keymaps/janvanrensbergen`
 make planck/rev6:janvanrensbergen 
 ```
 
+### gmmk2 p96
+
+path: `keyboards/gmmk/gmmk2/p96/ansi/keymaps/janvanrensbergen`
+
+```shell
+qmk compile -kb gmmk/gmmk2/p96/ansi -km janvanrensbergen 
+```
+
+```shell
+make gmmk/gmmk2/p96/ansi:janvanrensbergen 
+```
+
 
 ## Documentation
 
